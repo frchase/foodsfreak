@@ -1,0 +1,18 @@
+* {
+background: orange;
+}
+p {
+ font-size: 35px;
+ color: black;
+ text-align: center;
+}
+h1{
+font-size: 200px;
+background-color: lawngreen;
+ padding: 20px;
+ margin: 30px;
+ border: 10px solid white;
+ border-radius: 20px;
+color: white;
+ text-align: center;
+ }

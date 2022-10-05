@@ -1,0 +1,27 @@
+.submission-form{
+ max-width: 50%;
+ margin: 2rem auto;
+ border: 2px solid darkolivegreen;
+ padding: 2rem;
+ height: 400px;
+ font-size: 25px;
+ float: left;
+ padding;
+}
+label {
+ display: block;
+
+}
+input, textarea {
+ display: block;
+ width: 100%;
+}
+input[type=submit]{
+ font-size: 28px;
+ width: auto;
+ margin-top: 20px;
+ position: center;
+ text-align: center;
+ background-color: #2d5500;
+ color: white;
+}

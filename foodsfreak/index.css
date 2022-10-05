@@ -1,0 +1,373 @@
+html{
+  background-color: floralwhite;
+}
+body{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0 auto; 
+}
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+ margin: 25px;
+}
+/* Header code */
+header{
+height: 450px;
+padding: 0px;
+margin: 0px;
+background-image: url(./photos/background\ photo.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+header .container{
+  display: inline-block;
+ width: 100%;
+}
+ul{ 
+  padding: 0;
+}
+header li{
+  display: inline;
+  padding: 12px;
+  font-size: 28px;
+}
+header .desktopleft {
+margin: 22px;
+  float: left;
+}
+header .desktopright{
+  margin: 22px;
+  float: right;
+}
+.signupbutton{
+  border: 3px white solid;
+  padding: 10px;
+}
+.signupbutton:hover {
+  background-color: #2d5500;
+}
+.homebutton:hover, .locations:hover, .loginbutton:hover {
+  border-bottom: 3px white solid;
+  padding-bottom: 10px;
+}
+.headertext{
+  text-align: center;
+  margin-top: -45px;
+}
+.h1text{
+ display: inline-block;
+margin-top: 22px;
+  height: 30px; 
+
+}
+.h1text h1{
+   background-color: #2d5500;
+  border: 2px solid black;
+  color: white;
+   border-radius: 29px;
+  padding-right: 5px;
+  padding-left: 5px;
+font-size: 78px;
+}
+ header h3 {
+   font-size: 28px;
+   margin-top: 35px;
+   text-align: center;
+   color: #fea201;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: italic;
+   font-weight: bold;
+ }
+ /* end of header */
+/* start of the body */
+
+#foodsfreakgoal{
+  border: 5px solid #2d5500;
+  font-size: 12px;
+  margin: 30px 30px 30px 30px;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: left;
+}
+#foodsfreakgoal h2{
+  font-size: 36px;
+  color: #ff6e4e;
+  font-weight: bold;
+  text-align: center;
+}
+#foodsfreakgoal p{
+font-size: 26px;
+}
+
+#bodytext{
+  background-color: white;
+  width: 42%;
+  margin: 30px 30px 30px 30px;
+  float: left;
+  border: 5px solid #2d5500;
+  padding: 10px;
+  text-align: left;
+
+}
+#bodytext p{
+  font-size: 26px;
+  color: black;
+  text-align: left;
+}
+p{
+  color: black;
+}
+#bodytext h1 {
+font-size: 60px;
+color:orange;
+text-align: center;
+padding-top: 15px;
+}
+#bodytext img {
+  border-radius: 3%;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+#form{
+  width: 42%;
+  margin: 30px 30px 30px 30px;
+  display: block;
+  text-align: center;
+  font-size: 34px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  border: 5px solid #2d5500;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  float: right;
+  background-color: white;
+}
+#form h2{
+  font-size: 24px;
+ 
+}
+
+#form img{
+  margin-right: 60px;
+  border-radius: 50%;
+}
+ input[type=radio]{
+ 
+ }
+
+input[type=submit]{
+    background-color: #2d5500;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  margin: 12px 14px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+/* end of body */
+
+
+/* start of search bar */
+.tb
+{
+    display: table;
+    width: 100%;
+}
+
+.td
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+input, button
+{
+    color: #fff;
+    font-family: Nunito;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+#cover
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 550px;
+    padding: 35px;
+    margin: -83px auto 0 auto;
+    background-color: #2d5500;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px #2d5500, 0 0 0 5px black;
+    transform: scale(0.6);
+}
+
+form
+{
+    height: 84px;
+}
+
+input[type="text"]
+{
+    width: 100%;
+    height: 84px;
+    font-size: 60px;
+    line-height: 1;
+}
+
+input[type="text"]::placeholder
+{
+    color: white;
+}
+
+#s-cover
+{
+    width: 1px;
+    padding-left: 35px;
+}
+
+button
+{
+    position: relative;
+    display: block;
+    width: 84px;
+    height: 96px;
+    cursor: pointer;
+}
+
+#s-circle
+{
+    position: relative;
+    top: -8px;
+    left: 0;
+    width: 43px;
+    height: 43px;
+    margin-top: 0;
+    border-width: 15px;
+    border: 15px solid #fff;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: 0.5s ease all;
+}
+
+button span
+{
+    position: absolute;
+    top: 68px;
+    left: 43px;
+    display: block;
+    width: 45px;
+    height: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    transform: rotateZ(52deg);
+    transition: 0.5s ease all;
+}
+
+button span:before, button span:after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 45px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    transform: rotateZ(0);
+    transition: 0.5s ease all;
+}
+
+#s-cover:hover #s-circle
+{
+    top: -1px;
+    width: 67px;
+    height: 15px;
+    border-width: 0;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+#s-cover:hover span
+{
+    top: 50%;
+    left: 56px;
+    width: 25px;
+    margin-top: -9px;
+    transform: rotateZ(0);
+}
+
+#s-cover:hover button span:before
+{
+    bottom: 11px;
+    transform: rotateZ(52deg);
+}
+
+#s-cover:hover button span:after
+{
+    bottom: -11px;
+    transform: rotateZ(-52deg);
+}
+#s-cover:hover button span:before, #s-cover:hover button span:after
+{
+    right: -6px;
+    width: 40px;
+    background-color: #fff;
+}
+/* end of search bar code */
+
+/* start of body content */
+
+
+
+/* end of body content */
+
+/* footer code */
+.navfooter {
+  font-size: 20px;
+  text-align: center;
+}
+footer{
+  background-color: #2d5500;
+  height: 80px;
+  padding-top: 15px;
+  margin-top: 50px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  margin: 28px;
+}
+footer li{
+  border: 1px solid black;
+  display: inline;
+  padding: 12px;
+  font-size: 28px;
+}
+footer li:last-child{
+  border-right: none;
+}
+.joinfoodsfreak{
+  color: white;
+  font-size: 20px;
+}
+.aboutus{
+   color: white;
+  font-size: 20px;
+}
+.contactus{
+   color: white;
+  font-size: 20px;
+ 
+}
+/* end of footer */
